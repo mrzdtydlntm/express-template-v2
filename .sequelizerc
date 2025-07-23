@@ -1,0 +1,9 @@
+const path = require("path");
+const toolkitPath = "./toolkit/database";
+
+module.exports = {
+  config: path.resolve(toolkitPath, "config.js"),
+  "models-path": path.resolve(toolkitPath, "models"),
+  "seeders-path": path.resolve(toolkitPath, "seeders"),
+  "migrations-path": path.resolve(toolkitPath, "migrations"),
+};
